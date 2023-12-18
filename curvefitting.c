@@ -1,13 +1,5 @@
 #include<stdio.h>
 
-// void solve(float matrix[3][4]){
-//     for(int i = 0 ; i<3 ; i++){
-//         for(int j = 0 ; j<4 ; j++){
-//             scanf("%f" , &matrix[i][j]);
-//         }
-//     }
-// }
-
 int main(){
 
     float x[10];
@@ -43,7 +35,6 @@ int main(){
 
     printf("%.2f ,%.2f ,%.2f ,%.2f ,%.2f ,%.2f ,%.2f", sumX , sumY , sumXY , sumX2 , sumX3 , sumX4 , sumX2Y);
 
-    // solve(matrix);
     printf("\nsolveing for a , b , c\n");
 
     float a1 =n , b1 =sumX , c1 = sumX2, d1=sumY; 
